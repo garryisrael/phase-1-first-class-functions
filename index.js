@@ -14,7 +14,7 @@ function returnsANamedFunction(){
 }
 
 function returnsAnAnonymousFunction(){
-  return function (){
+  return (function(){
     console.log("I\'m happy");
-  };
+  });
 }
