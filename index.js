@@ -15,6 +15,6 @@ function returnsANamedFunction(){
 
 function returnsAnAnonymousFunction(){
   return (function(){
-    console.log("I\'m happy");
+    console.log("I'm happy");
   });
 }
