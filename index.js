@@ -3,9 +3,9 @@ function area(num){
 }
 
 function receivesAFunction(area){
-  const side =3;
-  area(side);
-  return "Mission accomplished";
+    const side =3;
+    area(side);
+    return "Mission accomplished";
 }
 
 function returnsANamedFunction(){
